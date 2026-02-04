@@ -68,3 +68,47 @@ hr {
     transform: translateY(-6px) scale(1.03);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
+
+.filme {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.banner {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+.sinopse {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.info, .opiniao {
+    background-color: #2f2f4f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff4d6d;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    background-color: #ff6f8a;
+}
